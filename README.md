@@ -1,1 +1,1 @@
-# dino ganzzzzz
+# dino ganzzzzz sekali

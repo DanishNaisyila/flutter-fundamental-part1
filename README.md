@@ -1,1 +1,1 @@
-# dino ganzzzzz sekali
+![Logo_poliwangi](assets/logo_poliwangi.jpg)

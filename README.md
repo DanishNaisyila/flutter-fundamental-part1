@@ -1,1 +1,0 @@
-![Logo_poliwangi](assets/logo_poliwangi.jpg)

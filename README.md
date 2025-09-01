@@ -18,10 +18,10 @@
  Setelah project berhasil dibuat, didalam folder lib menampilkan isi file main.dart yang secara otomatis dibuat oleh Flutter. Di dalamnya terdapat fungsi main dan class MyApp yang menjadi titik awal aplikasi. 
  ![Lngkh4](assets/Lngkh4.png)
 
- Lalu kita membuat file baru yaitu text_widget.dart, kita membuat widget sederhana untuk menampilkan tulisan Hello World. Di dalamnya ada class MyTextWidget yang dibuat dengan StatelessWidget. Class ini punya method build() yang akan mengembalikan widget Center sebagai wadah utama, dan di dalamnya ada widget text yang menampilkan tulisan Hello World. Tulisan ini juga bisa kita atur tampilannya, misalnya ukuran huruf, warna, atau ketebalannya, dengan menggunakan properti style.
+ Lalu kita membuat file baru yaitu text_widget.dart, kita membuat widget sederhana untuk menampilkan tulisan Hello World. Di dalamnya ada class MyTextWidget yang dibuat dengan StatelessWidget. Tulisan ini juga bisa kita atur tampilannya, misalnya ukuran huruf, warna, atau ketebalannya, dengan menggunakan properti style.
  ![text](assets/text.png)
 
- Untuk main.dart dengan MyTextWidget, pertama kita mengimpor text_widget.dart, lalu pada bagian build() dibuat struktur aplikasi menggunakan MaterialApp dan Scaffold. Di dalam Scaffold, tredapat center yang berfungsi untuk meletakkan widget di tengah layar. Di dalam center dipanggil MyTextWidget(), yaitu widget yang isinya menampilkan text hello world. Jadi, ketika aplikasi dijalankan, yang muncul adalah tulisan di tengah layar.
+ Untuk main.dart dengan MyTextWidget, pertama kita mengimpor text_widget.dart. Di dalam center dipanggil MyTextWidget(), yaitu widget yang isinya menampilkan text hello world. Jadi, ketika aplikasi dijalankan, yang muncul adalah tulisan di tengah layar.
  ![maintext](assets/maintext.png)
 
  Jika ingin melihat tampilannya kita pergi ke terminal dengan munulis "flutter run", lalu nantinya kita akan diberikan pilihan seperti gambar dibawah ini, pilih browser yang sering kita pakai.
